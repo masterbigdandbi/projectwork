@@ -2,7 +2,7 @@
 
 Trattasi di un'applicazione web in grado di riconoscere le emozioni facciali in tempo reale mediante una videocamera e calcolare il livello di coinvoilgimento del pubblico. Inoltre, include la possibilità di riconoscere i volti delle persone precedentemente registrate.
 
-### Architecture
+### Architettura
 
 L'applicazione usa l'API Amazon Rekogntion Video [Amazon Rekognition](https://aws.amazon.com/rekognition) per le immagini e la sentiment analisi, [Amazon DynamoDB](https://aws.amazon.com/dynamodb) per lo storage, [Amazon API Gateway](https://aws.amazon.com/api-gateway) e [Amazon Cognito](https://aws.amazon.com/cognito) per le API, e [Amazon S3](https://aws.amazon.com/s3), [AWS Amplify](https://aws.amazon.com/amplify), e [React](https://reactjs.org) per il deployment front-end.
 
@@ -63,7 +63,7 @@ b. Nella schermata "* Specifica i dettagli dello stack *" è possibile personali
    * You can monitor the stack creation progress in the "Events" tab.
 1. Note the *url* displayed in the *Outputs* tab for the stack. This is used to access the application.
 
-#### Accessing the Application
+#### Accesso all'applicazione
 
 Si accede all'applicazione utilizzando un browser Web. L'indirizzo è l'output * url * dallo stack CloudFormation creato durante i passaggi di distribuzione.
 
@@ -85,4 +85,4 @@ I contributi sono graditi secondo il [code of conduct](CODE_OF_CONDUCT.md) e le 
 
 ## Licenza
 
-Questo codice è valido con licenza MIT license. Vedere file License
+Questo codice è valido con licenza MIT license. Vedere il file License
