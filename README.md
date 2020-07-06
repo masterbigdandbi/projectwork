@@ -2,17 +2,6 @@
 
 Trattasi di un'applicazione web in grado di riconoscere le emozioni facciali in tempo reale mediante una videocamera e calcolare il livello di coinvoilgimento del pubblico. Inoltre, include la possibilità di riconoscere i volti delle persone precedentemente registrate.
 
-### Index
-
-* [Architecture](#architecture)
-* [Usage](#usage)
-  * [Prerequisites](#prerequisites)
-  * [Deployment](#deployment)
-  * [Accessing the application](#accessing-the-application)
-* [Remove the application](#remove-the-application)
-* [Making changes to the code and customization](#making-changes-to-the-code-and-customization)
-* [Contributing](#contributing)
-
 ### Architecture
 
 L'applicazione usa l'API Amazon Rekogntion Video [Amazon Rekognition](https://aws.amazon.com/rekognition) per le immagini e la sentiment analisi, [Amazon DynamoDB](https://aws.amazon.com/dynamodb) per lo storage, [Amazon API Gateway](https://aws.amazon.com/api-gateway) e [Amazon Cognito](https://aws.amazon.com/cognito) per le API, e [Amazon S3](https://aws.amazon.com/s3), [AWS Amplify](https://aws.amazon.com/amplify), e [React](https://reactjs.org) per il deployment front-end.
